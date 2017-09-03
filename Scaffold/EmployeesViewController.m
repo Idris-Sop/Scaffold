@@ -41,7 +41,6 @@
         [api getEmployeeWithParams:params withCompletion:^(BOOL success, NSMutableArray *employeeArray, NSString *message) {
             if (success) {
                 dispatch_async(dispatch_get_main_queue(), ^{
-//                    NSLog(@"employeeArray: %@", employeeArray);
                     self.employeeArray = employeeArray;
                     [self.employeeTableView reloadData];
                     [self hideLoadingFromView:self.view];
@@ -76,7 +75,6 @@
         [api getEmployeeWithParams:filterParams withCompletion:^(BOOL success, NSMutableArray *employeeArray, NSString *message) {
             if (success) {
                 dispatch_async(dispatch_get_main_queue(), ^{
-//                    NSLog(@"employeeArray After filtering: %@", employeeArray);
                     self.employeeArray = employeeArray;
                     [self.employeeTableView reloadData];
                     [self hideLoadingFromView:self.view];

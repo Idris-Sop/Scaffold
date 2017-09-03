@@ -18,7 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"My Profile";
-    
 }
 
 - (void)viewWillAppear:(BOOL)animated {

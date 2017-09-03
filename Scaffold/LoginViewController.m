@@ -35,8 +35,6 @@
 
 
 - (IBAction)loginPressed:(id)sender {
-    self.usernameTF.text = @"pravin.gordhan";
-    self.passwordTF.text = @"pravin.gordhan";
     if (self.isInternetReachable) {
         if ([self validateEnteredDetails]) {
             [self showLoadingFromView:self.view];

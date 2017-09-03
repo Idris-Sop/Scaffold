@@ -91,13 +91,12 @@
     NSMutableURLRequest *requestURL = [NSMutableURLRequest requestWithURL:[APIHelper apiURLWithExtension:[NSString stringWithFormat:@"api/employee/?%@", [self buildFormParameters:params]]]];
     requestURL.HTTPMethod = @"GET";
     [requestURL setValue:[[NSUserDefaults standardUserDefaults] valueForKey:@"token"] forHTTPHeaderField:@"Authorization"];
-    NSLog(@"TOKEN: %@", [[NSUserDefaults standardUserDefaults] valueForKey:@"token"]);
+//    NSLog(@"TOKEN: %@", [[NSUserDefaults standardUserDefaults] valueForKey:@"token"]);
     NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:requestURL completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         NSHTTPURLResponse *resp = (NSHTTPURLResponse *)response;
-        NSLog(@"Response %ld", (long)resp.statusCode);
         if (!error && resp.statusCode == 200) {
             NSMutableArray *employeeArray = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
-            NSLog(@"employeeArray: %@", employeeArray);
+//            NSLog(@"employeeArray: %@", employeeArray);
             completion (YES, employeeArray, nil);
         } else {
             NSString *responseBody = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];

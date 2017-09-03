@@ -123,7 +123,6 @@
         [filterParams setValue:[self getValueIdFromValueName:self.raceTF.text andArray:self.raceArray] forKey:@"race"];
     }
     
-    
     if ([[self getValueIdFromValueName:self.positionTF.text andArray:self.positionArray] isEqualToString:@""]) {
         [filterParams setValue:@"" forKey:@"position"];
     } else {
@@ -131,7 +130,6 @@
     }
     
     [filterParams setValue:[self getValueIdFromValueName:self.startDateTF.text andArray:self.startDateArray] forKey:@"start_date_range"];
-    
     
     if ([[self getValueIdFromValueName:self.userTF.text andArray:self.userArray] isEqualToString:@""]) {
         [filterParams setValue:@"" forKey:@"user"];

@@ -19,43 +19,43 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvN-MN-0Fi">
-                        <rect key="frame" x="165" y="39" width="84" height="18.5"/>
+                        <rect key="frame" x="175" y="39" width="84" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Email Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkN-Hs-aYF">
-                        <rect key="frame" x="165" y="67" width="152.5" height="18.5"/>
+                        <rect key="frame" x="175" y="67" width="152.5" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax Number Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DC9-Q5-llD">
-                        <rect key="frame" x="165" y="96" width="134.5" height="18.5"/>
+                        <rect key="frame" x="175" y="96" width="134.5" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GitHub User Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPr-TP-bPu">
-                        <rect key="frame" x="165" y="124" width="134.5" height="18.5"/>
+                        <rect key="frame" x="175" y="124" width="134.5" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dob Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ynd-OR-BI3">
-                        <rect key="frame" x="165" y="153" width="75" height="18.5"/>
+                        <rect key="frame" x="175" y="153" width="75" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Race Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFH-Cl-WQk">
-                        <rect key="frame" x="165" y="182" width="81" height="18.5"/>
+                        <rect key="frame" x="175" y="182" width="81" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Years Worked Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyi-ad-EjD">
-                        <rect key="frame" x="165" y="208" width="147.5" height="18.5"/>
+                        <rect key="frame" x="175" y="208" width="147.5" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -109,7 +109,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Date Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xu4-iO-VqD">
-                        <rect key="frame" x="165" y="236.5" width="121" height="18.5"/>
+                        <rect key="frame" x="175" y="236.5" width="121" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -121,13 +121,13 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Position Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MS7-jr-5Q6">
-                        <rect key="frame" x="165" y="10" width="103" height="18.5"/>
+                        <rect key="frame" x="175" y="10" width="103" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is Foreigner Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbI-9Z-NV0">
-                        <rect key="frame" x="165" y="265" width="132" height="18.5"/>
+                        <rect key="frame" x="175" y="265" width="132" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -139,7 +139,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leave Days remaining" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OoO-JQ-3hI">
-                        <rect key="frame" x="165" y="293.5" width="159" height="18.5"/>
+                        <rect key="frame" x="175" y="293.5" width="159" height="18.5"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -191,7 +191,7 @@
                     <constraint firstItem="RPr-TP-bPu" firstAttribute="centerY" secondItem="m0B-XN-qjP" secondAttribute="centerY" id="ld3-tz-DAK"/>
                     <constraint firstItem="Oe5-3x-KPa" firstAttribute="leading" secondItem="m0B-XN-qjP" secondAttribute="leading" id="mdu-1b-Vea"/>
                     <constraint firstItem="5nF-kw-ltn" firstAttribute="leading" secondItem="Th8-cx-hHo" secondAttribute="leading" id="qMB-zk-U3U"/>
-                    <constraint firstItem="MS7-jr-5Q6" firstAttribute="leading" secondItem="Th8-cx-hHo" secondAttribute="trailing" constant="90" id="rHq-ZN-rAb"/>
+                    <constraint firstItem="MS7-jr-5Q6" firstAttribute="leading" secondItem="Th8-cx-hHo" secondAttribute="trailing" constant="100" id="rHq-ZN-rAb"/>
                     <constraint firstItem="Xu4-iO-VqD" firstAttribute="centerY" secondItem="0qw-fY-3FL" secondAttribute="centerY" id="trx-ez-3DT"/>
                     <constraint firstItem="5nF-kw-ltn" firstAttribute="top" secondItem="Th8-cx-hHo" secondAttribute="bottom" constant="10" id="vbp-xD-awv"/>
                     <constraint firstItem="Th8-cx-hHo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="wUh-OA-qRL"/>

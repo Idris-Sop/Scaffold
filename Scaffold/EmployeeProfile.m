@@ -167,17 +167,29 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     CGFloat rowHeight = 0;
     if ([[(self.contentParts)[indexPath.section] valueForKey:@"title"] isEqualToString:@"Employee Profile"]) {
-        rowHeight = 130;
+        NSString *address = [self.userProfileDict valueForKey:@"physical_address"];
+        rowHeight = 95 + [self heightForText:address];
     } else if ([[(self.contentParts)[indexPath.section] valueForKey:@"title"] isEqualToString:@"About"]) {
         rowHeight = 330;
     } else if ([[(self.contentParts)[indexPath.section] valueForKey:@"title"] isEqualToString:@"Get in touch"]) {
         rowHeight = 50;
     } else if ([[(self.contentParts)[indexPath.section] valueForKey:@"title"] isEqualToString:@"Review"]) {
         rowHeight = 105;
-    } else if ([[(self.contentParts)[indexPath.section] valueForKey:@"Next Kind"] isEqualToString:@"Review"]) {
-        rowHeight = 160;
+    } else if ([[(self.contentParts)[indexPath.section] valueForKey:@"title"] isEqualToString:@"Next Kind"]) {
+        NSMutableArray *items = [(self.contentParts)[indexPath.section] valueForKey:@"items"];
+        NSString *address = [[items objectAtIndex:indexPath.row] valueForKey:@"physical_address"];
+        rowHeight = 135 + [self heightForText:address];
     }
     return rowHeight;
+}
+
+-(CGFloat)heightForText:(NSString *)text {
+    NSInteger MAX_HEIGHT = 2000;
+    UITextView * textView = [[UITextView alloc] initWithFrame: CGRectMake(0, 0, 320, MAX_HEIGHT)];
+    textView.text = text;
+    textView.font = [UIFont boldSystemFontOfSize:12];
+    [textView sizeToFit];
+    return textView.frame.size.height;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {

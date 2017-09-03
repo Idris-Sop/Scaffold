@@ -12,21 +12,21 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="160" id="KGk-i7-Jjw" customClass="NextKindTableViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="377" height="160"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="NextKindTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="377" height="150"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="377" height="159.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="377" height="149.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqR-c6-KXo">
-                        <rect key="frame" x="18" y="13" width="91" height="20"/>
+                        <rect key="frame" x="18" y="13" width="44" height="20"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFw-5K-yMe">
-                        <rect key="frame" x="179" y="13" width="93" height="20"/>
+                        <rect key="frame" x="152" y="13" width="93" height="20"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -38,7 +38,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Relationship Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxp-Uv-lJF">
-                        <rect key="frame" x="179" y="40" width="142.5" height="20"/>
+                        <rect key="frame" x="152" y="40" width="142.5" height="20"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -50,7 +50,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AX-3X-y6f">
-                        <rect key="frame" x="179" y="67" width="97" height="20"/>
+                        <rect key="frame" x="152" y="67" width="97" height="20"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -62,7 +62,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcM-Ch-s2Z">
-                        <rect key="frame" x="179" y="94" width="90.5" height="20"/>
+                        <rect key="frame" x="152" y="94" width="90.5" height="20"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -74,7 +74,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Physical Address Value" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wu-n2-M2x">
-                        <rect key="frame" x="179" y="121" width="180" height="20"/>
+                        <rect key="frame" x="152" y="121" width="180" height="20"/>
                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -84,7 +84,7 @@
                     <constraint firstItem="e3o-Uh-dv3" firstAttribute="top" secondItem="dlI-Wu-DKN" secondAttribute="bottom" constant="7.5" id="0ok-xi-nsq"/>
                     <constraint firstItem="qKc-Js-1EZ" firstAttribute="top" secondItem="cqR-c6-KXo" secondAttribute="bottom" constant="7" id="6g5-8m-erN"/>
                     <constraint firstItem="e3o-Uh-dv3" firstAttribute="leading" secondItem="dlI-Wu-DKN" secondAttribute="leading" id="DP1-QH-vW2"/>
-                    <constraint firstItem="GFw-5K-yMe" firstAttribute="leading" secondItem="cqR-c6-KXo" secondAttribute="trailing" constant="70" id="EUr-7O-i3e"/>
+                    <constraint firstItem="GFw-5K-yMe" firstAttribute="leading" secondItem="cqR-c6-KXo" secondAttribute="trailing" constant="90" id="EUr-7O-i3e"/>
                     <constraint firstItem="qKc-Js-1EZ" firstAttribute="leading" secondItem="cqR-c6-KXo" secondAttribute="leading" id="IT8-nQ-dJD"/>
                     <constraint firstItem="cqR-c6-KXo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="LDE-p4-2nG"/>
                     <constraint firstItem="1AX-3X-y6f" firstAttribute="centerY" secondItem="pAf-Yd-pcQ" secondAttribute="centerY" id="McF-8j-aVx"/>
@@ -97,7 +97,7 @@
                     <constraint firstItem="cqR-c6-KXo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="bZO-xD-2tt"/>
                     <constraint firstItem="Kxp-Uv-lJF" firstAttribute="centerY" secondItem="qKc-Js-1EZ" secondAttribute="centerY" id="cVe-DE-P4f"/>
                     <constraint firstItem="3wu-n2-M2x" firstAttribute="leading" secondItem="IcM-Ch-s2Z" secondAttribute="leading" id="me7-1Q-9G0"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="3wu-n2-M2x" secondAttribute="trailing" constant="10" id="nf1-2b-74r"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="3wu-n2-M2x" secondAttribute="trailing" constant="10" placeholder="YES" id="nf1-2b-74r"/>
                     <constraint firstItem="IcM-Ch-s2Z" firstAttribute="centerY" secondItem="dlI-Wu-DKN" secondAttribute="centerY" id="pPX-yX-Oeb"/>
                     <constraint firstItem="GFw-5K-yMe" firstAttribute="centerY" secondItem="cqR-c6-KXo" secondAttribute="centerY" id="pXb-O0-K9g"/>
                     <constraint firstItem="pAf-Yd-pcQ" firstAttribute="top" secondItem="qKc-Js-1EZ" secondAttribute="bottom" constant="7.5" id="qN7-ch-Hln"/>
@@ -107,6 +107,7 @@
                 <variation key="default">
                     <mask key="constraints">
                         <exclude reference="b2R-YO-r95"/>
+                        <exclude reference="nf1-2b-74r"/>
                     </mask>
                 </variation>
             </tableViewCellContentView>
@@ -117,7 +118,7 @@
                 <outlet property="physicalAddressValueLbl" destination="3wu-n2-M2x" id="aZE-wJ-7YE"/>
                 <outlet property="relationshipValueLbl" destination="Kxp-Uv-lJF" id="mHk-5H-Kei"/>
             </connections>
-            <point key="canvasLocation" x="63.5" y="148"/>
+            <point key="canvasLocation" x="63.5" y="143"/>
         </tableViewCell>
     </objects>
 </document>
