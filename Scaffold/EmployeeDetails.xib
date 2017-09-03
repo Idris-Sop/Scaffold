@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EmployeeDetails">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T3a-pN-ybZ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FBY-Ew-nDf">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_profile" translatesAutoresizingMaskIntoConstraints="NO" id="36Q-ki-Tfw">
+                                    <rect key="frame" x="20" y="40" width="60" height="60"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="2px-vX-q1O"/>
+                                        <constraint firstAttribute="width" constant="60" id="QIx-sS-srD"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employee Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lL6-aS-O1G">
+                                    <rect key="frame" x="95" y="40" width="122" height="20"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiL-TD-6FZ">
+                                    <rect key="frame" x="95" y="70" width="50" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpN-6K-ylA">
+                                    <rect key="frame" x="175" y="70" width="98" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fu8-OF-YbB">
+                                    <rect key="frame" x="155" y="159" width="84" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H6-Mv-9Iu">
+                                    <rect key="frame" x="155" y="187" width="84.5" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KrF-6T-a3d">
+                                    <rect key="frame" x="155" y="216" width="90.5" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GitHub User Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGv-I8-DSt">
+                                    <rect key="frame" x="155" y="244" width="134.5" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dob Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BHb-Bl-x3d">
+                                    <rect key="frame" x="155" y="273" width="75" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Race Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slA-o6-zNg">
+                                    <rect key="frame" x="155" y="302" width="81" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Years Worked Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Es5-g8-cZ8">
+                                    <rect key="frame" x="155" y="328" width="147.5" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ca1-yh-zLc">
+                                    <rect key="frame" x="20" y="159" width="36.5" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OU2-WE-FDf">
+                                    <rect key="frame" x="20" y="187" width="38" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JsP-CS-H4F">
+                                    <rect key="frame" x="20" y="216" width="101" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GitHub User:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tds-6V-zSH">
+                                    <rect key="frame" x="20" y="244" width="83.5" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of Birth:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6A-oJ-1C9">
+                                    <rect key="frame" x="20" y="273" width="90" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Race:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ew3-Td-UcU">
+                                    <rect key="frame" x="20" y="302" width="35" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Years worked:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsg-Ie-M7f">
+                                    <rect key="frame" x="20" y="328" width="92.5" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Position Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvI-hX-eFr">
+                                    <rect key="frame" x="155" y="130" width="103" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Position:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxR-pB-44Z">
+                                    <rect key="frame" x="20" y="130" width="55" height="18.5"/>
+                                    <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="slA-o6-zNg" firstAttribute="leading" secondItem="wvI-hX-eFr" secondAttribute="leading" id="0Ln-JC-p9w"/>
+                                <constraint firstItem="xsg-Ie-M7f" firstAttribute="top" secondItem="Ew3-Td-UcU" secondAttribute="bottom" constant="7.5" id="0dO-FW-RCS"/>
+                                <constraint firstItem="PxR-pB-44Z" firstAttribute="leading" secondItem="36Q-ki-Tfw" secondAttribute="leading" id="3Cp-A3-kwO"/>
+                                <constraint firstItem="Tds-6V-zSH" firstAttribute="leading" secondItem="JsP-CS-H4F" secondAttribute="leading" id="3cs-dp-nYb"/>
+                                <constraint firstItem="wvI-hX-eFr" firstAttribute="leading" secondItem="QpN-6K-ylA" secondAttribute="leading" placeholder="YES" id="4J7-rK-BtG"/>
+                                <constraint firstItem="Es5-g8-cZ8" firstAttribute="centerY" secondItem="xsg-Ie-M7f" secondAttribute="centerY" id="5F1-Er-8Nk"/>
+                                <constraint firstItem="Tds-6V-zSH" firstAttribute="top" secondItem="JsP-CS-H4F" secondAttribute="bottom" constant="10" id="5P1-Oo-8VT"/>
+                                <constraint firstItem="S6A-oJ-1C9" firstAttribute="leading" secondItem="Tds-6V-zSH" secondAttribute="leading" id="5fL-KE-1Bl"/>
+                                <constraint firstItem="OU2-WE-FDf" firstAttribute="leading" secondItem="Ca1-yh-zLc" secondAttribute="leading" id="5hP-SQ-S6T"/>
+                                <constraint firstItem="PxR-pB-44Z" firstAttribute="top" secondItem="36Q-ki-Tfw" secondAttribute="bottom" constant="30" id="8ad-ch-3Ec"/>
+                                <constraint firstItem="lL6-aS-O1G" firstAttribute="leading" secondItem="36Q-ki-Tfw" secondAttribute="trailing" constant="15" id="97M-E2-MFz"/>
+                                <constraint firstItem="S6A-oJ-1C9" firstAttribute="top" secondItem="Tds-6V-zSH" secondAttribute="bottom" constant="10" id="9eb-vA-clQ"/>
+                                <constraint firstItem="PxR-pB-44Z" firstAttribute="leading" secondItem="36Q-ki-Tfw" secondAttribute="leading" id="Bbd-e3-91G"/>
+                                <constraint firstItem="KrF-6T-a3d" firstAttribute="centerY" secondItem="JsP-CS-H4F" secondAttribute="centerY" id="F8b-4Z-RHr"/>
+                                <constraint firstItem="Ew3-Td-UcU" firstAttribute="top" secondItem="S6A-oJ-1C9" secondAttribute="bottom" constant="10" id="FTf-R4-qyS"/>
+                                <constraint firstItem="tGv-I8-DSt" firstAttribute="centerY" secondItem="Tds-6V-zSH" secondAttribute="centerY" id="GNk-K2-3Vl"/>
+                                <constraint firstItem="PiL-TD-6FZ" firstAttribute="top" secondItem="lL6-aS-O1G" secondAttribute="bottom" constant="10" id="H8M-lT-6bp"/>
+                                <constraint firstItem="BHb-Bl-x3d" firstAttribute="leading" secondItem="wvI-hX-eFr" secondAttribute="leading" id="M9E-8O-uHp"/>
+                                <constraint firstItem="slA-o6-zNg" firstAttribute="centerY" secondItem="Ew3-Td-UcU" secondAttribute="centerY" id="PBX-fy-uqu"/>
+                                <constraint firstItem="wvI-hX-eFr" firstAttribute="centerY" secondItem="PxR-pB-44Z" secondAttribute="centerY" id="Rp0-eL-mgf"/>
+                                <constraint firstItem="fu8-OF-YbB" firstAttribute="centerY" secondItem="Ca1-yh-zLc" secondAttribute="centerY" id="TP7-R7-VLR"/>
+                                <constraint firstItem="36Q-ki-Tfw" firstAttribute="top" secondItem="FBY-Ew-nDf" secondAttribute="top" constant="40" id="Twr-Y8-ugs"/>
+                                <constraint firstItem="PxR-pB-44Z" firstAttribute="top" secondItem="PiL-TD-6FZ" secondAttribute="bottom" constant="10" placeholder="YES" id="Vgu-2K-3t2"/>
+                                <constraint firstItem="Ew3-Td-UcU" firstAttribute="leading" secondItem="S6A-oJ-1C9" secondAttribute="leading" id="WcI-Rf-FXA"/>
+                                <constraint firstItem="lL6-aS-O1G" firstAttribute="top" secondItem="36Q-ki-Tfw" secondAttribute="top" id="XWP-X5-JK1"/>
+                                <constraint firstItem="6H6-Mv-9Iu" firstAttribute="leading" secondItem="wvI-hX-eFr" secondAttribute="leading" id="ZFX-Th-E6L"/>
+                                <constraint firstItem="Ca1-yh-zLc" firstAttribute="leading" secondItem="PxR-pB-44Z" secondAttribute="leading" id="b36-3e-TOK"/>
+                                <constraint firstItem="xsg-Ie-M7f" firstAttribute="leading" secondItem="Ew3-Td-UcU" secondAttribute="leading" id="csd-Nv-ZFR"/>
+                                <constraint firstItem="Es5-g8-cZ8" firstAttribute="leading" secondItem="wvI-hX-eFr" secondAttribute="leading" id="d01-ev-nii"/>
+                                <constraint firstItem="KrF-6T-a3d" firstAttribute="leading" secondItem="QpN-6K-ylA" secondAttribute="leading" placeholder="YES" id="d9F-5o-Q8V"/>
+                                <constraint firstItem="36Q-ki-Tfw" firstAttribute="leading" secondItem="FBY-Ew-nDf" secondAttribute="leading" constant="20" id="dcA-is-R00"/>
+                                <constraint firstItem="PxR-pB-44Z" firstAttribute="leading" secondItem="PiL-TD-6FZ" secondAttribute="leading" placeholder="YES" id="e6U-qE-9YA"/>
+                                <constraint firstItem="JsP-CS-H4F" firstAttribute="leading" secondItem="OU2-WE-FDf" secondAttribute="leading" id="f1W-ux-Qlx"/>
+                                <constraint firstItem="OU2-WE-FDf" firstAttribute="top" secondItem="Ca1-yh-zLc" secondAttribute="bottom" constant="10" id="f3R-Fk-PWc"/>
+                                <constraint firstItem="BHb-Bl-x3d" firstAttribute="leading" secondItem="QpN-6K-ylA" secondAttribute="leading" placeholder="YES" id="fYs-nK-YIJ"/>
+                                <constraint firstItem="BHb-Bl-x3d" firstAttribute="centerY" secondItem="S6A-oJ-1C9" secondAttribute="centerY" id="gJ4-Gk-QNA"/>
+                                <constraint firstItem="Es5-g8-cZ8" firstAttribute="leading" secondItem="QpN-6K-ylA" secondAttribute="leading" placeholder="YES" id="hHl-On-M0s"/>
+                                <constraint firstItem="Ca1-yh-zLc" firstAttribute="top" secondItem="PxR-pB-44Z" secondAttribute="bottom" constant="10" id="kW3-dH-apb"/>
+                                <constraint firstItem="JsP-CS-H4F" firstAttribute="top" secondItem="OU2-WE-FDf" secondAttribute="bottom" constant="10" id="mwZ-Fe-dAG"/>
+                                <constraint firstItem="6H6-Mv-9Iu" firstAttribute="centerY" secondItem="OU2-WE-FDf" secondAttribute="centerY" id="o8x-oR-sT4"/>
+                                <constraint firstItem="KrF-6T-a3d" firstAttribute="leading" secondItem="wvI-hX-eFr" secondAttribute="leading" id="odb-hG-HGn"/>
+                                <constraint firstItem="tGv-I8-DSt" firstAttribute="leading" secondItem="wvI-hX-eFr" secondAttribute="leading" id="pWO-X9-Fwa"/>
+                                <constraint firstItem="tGv-I8-DSt" firstAttribute="leading" secondItem="QpN-6K-ylA" secondAttribute="leading" placeholder="YES" id="rbl-Iw-wtr"/>
+                                <constraint firstItem="QpN-6K-ylA" firstAttribute="leading" secondItem="PiL-TD-6FZ" secondAttribute="trailing" constant="30" id="s3Z-nT-6uh"/>
+                                <constraint firstItem="slA-o6-zNg" firstAttribute="leading" secondItem="QpN-6K-ylA" secondAttribute="leading" placeholder="YES" id="uTz-l6-Ps0"/>
+                                <constraint firstItem="fu8-OF-YbB" firstAttribute="leading" secondItem="QpN-6K-ylA" secondAttribute="leading" placeholder="YES" id="uwL-QR-wmX"/>
+                                <constraint firstItem="PiL-TD-6FZ" firstAttribute="leading" secondItem="lL6-aS-O1G" secondAttribute="leading" id="vag-gR-W8p"/>
+                                <constraint firstItem="wvI-hX-eFr" firstAttribute="leading" secondItem="PxR-pB-44Z" secondAttribute="trailing" constant="80" id="wt8-A1-WyU"/>
+                                <constraint firstItem="fu8-OF-YbB" firstAttribute="leading" secondItem="wvI-hX-eFr" secondAttribute="leading" id="yUT-Gk-4gY"/>
+                                <constraint firstItem="6H6-Mv-9Iu" firstAttribute="leading" secondItem="QpN-6K-ylA" secondAttribute="leading" placeholder="YES" id="yeB-Hg-r8u"/>
+                                <constraint firstItem="QpN-6K-ylA" firstAttribute="centerY" secondItem="PiL-TD-6FZ" secondAttribute="centerY" id="yex-KR-wvt"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Vgu-2K-3t2"/>
+                                    <exclude reference="e6U-qE-9YA"/>
+                                    <exclude reference="4J7-rK-BtG"/>
+                                    <exclude reference="uwL-QR-wmX"/>
+                                    <exclude reference="yeB-Hg-r8u"/>
+                                    <exclude reference="d9F-5o-Q8V"/>
+                                    <exclude reference="rbl-Iw-wtr"/>
+                                    <exclude reference="fYs-nK-YIJ"/>
+                                    <exclude reference="uTz-l6-Ps0"/>
+                                    <exclude reference="hHl-On-M0s"/>
+                                </mask>
+                            </variation>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="FBY-Ew-nDf" firstAttribute="top" secondItem="T3a-pN-ybZ" secondAttribute="top" id="8nu-qv-hb7"/>
+                        <constraint firstItem="FBY-Ew-nDf" firstAttribute="leading" secondItem="T3a-pN-ybZ" secondAttribute="leading" id="BGO-QL-D5g"/>
+                        <constraint firstAttribute="bottom" secondItem="FBY-Ew-nDf" secondAttribute="bottom" id="MI5-BD-qf4"/>
+                        <constraint firstAttribute="trailing" secondItem="FBY-Ew-nDf" secondAttribute="trailing" id="W8X-tx-Jyr"/>
+                        <constraint firstItem="FBY-Ew-nDf" firstAttribute="width" secondItem="T3a-pN-ybZ" secondAttribute="width" id="s12-nk-4rw"/>
+                        <constraint firstItem="FBY-Ew-nDf" firstAttribute="height" secondItem="T3a-pN-ybZ" secondAttribute="height" id="vGh-EE-kph"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="T3a-pN-ybZ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="9B3-br-HEt"/>
+                <constraint firstItem="T3a-pN-ybZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GDy-WL-SxF"/>
+                <constraint firstItem="T3a-pN-ybZ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="hEi-oX-Axi"/>
+                <constraint firstItem="T3a-pN-ybZ" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="vNA-0W-XFR"/>
+            </constraints>
+            <connections>
+                <outlet property="dobValueLbl" destination="BHb-Bl-x3d" id="YDn-s1-PGi"/>
+                <outlet property="emailValueLbl" destination="6H6-Mv-9Iu" id="9Li-kb-ySq"/>
+                <outlet property="employeeNameValue" destination="lL6-aS-O1G" id="3J8-5n-d7k"/>
+                <outlet property="genderValueLbl" destination="QpN-6K-ylA" id="xSL-Z0-nTm"/>
+                <outlet property="gitHubUserValue" destination="tGv-I8-DSt" id="PYI-t0-HvM"/>
+                <outlet property="levelValueLbl" destination="fu8-OF-YbB" id="TVx-AR-Ggd"/>
+                <outlet property="phoneValueLbl" destination="KrF-6T-a3d" id="d7E-0r-Erz"/>
+                <outlet property="positionValueLbl" destination="wvI-hX-eFr" id="737-ey-Xfv"/>
+                <outlet property="raceValueLbl" destination="slA-o6-zNg" id="ljG-Jg-HZj"/>
+                <outlet property="yearsWorkedValueLbl" destination="Es5-g8-cZ8" id="7jT-hv-sJD"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="91.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="empty_profile" width="200" height="200"/>
+    </resources>
+</document>

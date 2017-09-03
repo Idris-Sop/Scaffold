@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="111" id="KGk-i7-Jjw" customClass="ReviewTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="110.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4h-bQ-Ed0">
+                        <rect key="frame" x="18" y="13" width="36" height="20"/>
+                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAQ-sd-1Hl">
+                        <rect key="frame" x="84" y="13" width="85" height="20"/>
+                        <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salary:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Dh-ct-WnK">
+                        <rect key="frame" x="18" y="40" width="47" height="20"/>
+                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salary Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wH-Hh-7mV">
+                        <rect key="frame" x="84" y="40.5" width="97.5" height="20"/>
+                        <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qR-ib-BDx">
+                        <rect key="frame" x="18" y="67.5" width="37" height="20"/>
+                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUl-BM-Nmo">
+                        <rect key="frame" x="84" y="68" width="86.5" height="20"/>
+                        <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5qR-ib-BDx" firstAttribute="leading" secondItem="6Dh-ct-WnK" secondAttribute="leading" id="21D-dD-ZZf"/>
+                    <constraint firstItem="xUl-BM-Nmo" firstAttribute="leading" secondItem="5qR-ib-BDx" secondAttribute="trailing" constant="20.5" placeholder="YES" id="4Fd-TI-VLl"/>
+                    <constraint firstItem="3wH-Hh-7mV" firstAttribute="leading" secondItem="VAQ-sd-1Hl" secondAttribute="leading" id="GcM-l9-hbI"/>
+                    <constraint firstItem="VAQ-sd-1Hl" firstAttribute="centerY" secondItem="E4h-bQ-Ed0" secondAttribute="centerY" id="GdZ-tX-ZQ8"/>
+                    <constraint firstItem="6Dh-ct-WnK" firstAttribute="leading" secondItem="E4h-bQ-Ed0" secondAttribute="leading" id="Jma-yB-ukI"/>
+                    <constraint firstItem="3wH-Hh-7mV" firstAttribute="centerY" secondItem="6Dh-ct-WnK" secondAttribute="centerY" id="Raq-QZ-cPi"/>
+                    <constraint firstItem="xUl-BM-Nmo" firstAttribute="leading" secondItem="VAQ-sd-1Hl" secondAttribute="leading" id="Z5f-ih-LR6"/>
+                    <constraint firstItem="6Dh-ct-WnK" firstAttribute="top" secondItem="E4h-bQ-Ed0" secondAttribute="bottom" constant="7" id="a1c-vF-agI"/>
+                    <constraint firstItem="E4h-bQ-Ed0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="aKy-sL-69S"/>
+                    <constraint firstItem="VAQ-sd-1Hl" firstAttribute="leading" secondItem="E4h-bQ-Ed0" secondAttribute="trailing" constant="30" id="bXE-Ze-fjA"/>
+                    <constraint firstItem="3wH-Hh-7mV" firstAttribute="leading" secondItem="6Dh-ct-WnK" secondAttribute="trailing" constant="20.5" placeholder="YES" id="cuO-ut-vwN"/>
+                    <constraint firstItem="5qR-ib-BDx" firstAttribute="top" secondItem="6Dh-ct-WnK" secondAttribute="bottom" constant="7.5" id="gk4-JY-PrJ"/>
+                    <constraint firstItem="xUl-BM-Nmo" firstAttribute="centerY" secondItem="5qR-ib-BDx" secondAttribute="centerY" id="j7n-92-leL"/>
+                    <constraint firstItem="E4h-bQ-Ed0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="kXD-ZQ-jEx"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="cuO-ut-vwN"/>
+                        <exclude reference="4Fd-TI-VLl"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateValueLbl" destination="VAQ-sd-1Hl" id="ree-Sy-cTE"/>
+                <outlet property="salaryValueLbl" destination="3wH-Hh-7mV" id="IFP-06-h9X"/>
+                <outlet property="typeValueLbl" destination="xUl-BM-Nmo" id="WMw-33-Bi2"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="124.5"/>
+        </tableViewCell>
+    </objects>
+</document>
